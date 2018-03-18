@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  background: #000;
+  user-select: none;
   overflow: hidden;
   font-family: 'IBM Plex Mono', monospace;
 }
