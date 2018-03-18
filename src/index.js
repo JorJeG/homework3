@@ -2,8 +2,6 @@ import video from './video';
 import animate from './render-video';
 import visualize, { audioCtx, analyser } from './sound';
 
-import './css/style.css';
-
 navigator.mediaDevices.getUserMedia({ audio: true, video: true })
   .then((mediaStream) => {
     video.srcObject = mediaStream;
